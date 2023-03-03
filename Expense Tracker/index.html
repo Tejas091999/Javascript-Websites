@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Expense Tracker</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1 class="title">My Expense Tracker</h1>
+    <div class="balance">
+      <h3>Your Balance</h3>
+      <h1 id="your-balance">$0.00</h1>
+    </div>
+    <div class="exp-container">
+    <div>
+      <h2>Income</h2>
+      <p id="income">+$0.00</p>
+    </div>
+    <div>
+      <h2>Expense</h2>
+      <p id="expense">-$0.00</p>
+    </div>
+    </div>
+        <h3>History</h3>
+        <ul id="list" class="list"></ul>
+    </div>
+    <div>
+      <h3>Add Transcations</h3>
+      <form id="form">
+        <div class="form-control">
+          <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Enter the item"/>
+        </div>
+        <div class="form-control">
+          <label for="amount">Amount: </label>
+        <input type="number" id="amount" placeholder="Enter the amount"/>
+        </div>
+        <button class="btn">Add Transcation</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
