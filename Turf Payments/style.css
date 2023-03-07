@@ -1,0 +1,30 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  text-align: center;
+  justify-content: center;
+  background-color: pink;
+  color:maroon;
+  border:200px solid white;
+}
+p{
+  font-size:30px;
+  padding-top: 0px;
+}
+.list{
+  padding:5px;
+}
+.info{
+  border:3px solid maroon;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.btn{
+  font-size:20px;
+  background-color: black;
+  color:pink;
+  border:5px solid maroon;
+  border-radius: 5px;
+  cursor: pointer;
+}
