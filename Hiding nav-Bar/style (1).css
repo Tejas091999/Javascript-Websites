@@ -1,0 +1,40 @@
+body{
+  background-color: 	#D2691E;
+}
+#btn{
+  cursor: pointer;
+  transition: ease-in 2.5s;
+}
+#btn1{
+  cursor: pointer;
+  margin-left: 0;
+  transition: ease-out 2.5s;
+}
+#guitar{
+  width:100vw;
+}
+a{
+  text-decoration: none;
+  padding-left:4px;
+  font-size: 20px;
+  color: black;
+  cursor:pointer;
+}
+.logo{
+  width:5vw;
+  height:5vh;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+p{
+  font-family: "Climate Crisis",sans-serif;
+  font-size: 20px;
+  font-weight:15px;
+}
+h2{
+  text-decoration: underline;
+}
+#para{
+  text-decoration: underline;
+}
