@@ -1,0 +1,49 @@
+body{
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+}
+.img{
+  width:30px;
+  height: 40px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  cursor: pointer;
+}
+.activeimg{
+  opacity:0
+}
+.inactiveimg{
+  opacity:1;
+}
+button{
+  display:flex;
+  justify-content:center;
+  margin-left:50%;
+  margin-top: 50%;
+  translate: (-50%,-50%);
+  width:20px;
+  height: 20px;
+}
+.active{
+  width:200px;
+  height: 40px;
+  opacity: 0;
+  margin-right: 100px;
+  margin-top:50%;
+  margin-bottom:50%
+}
+.inactive{
+  width:200px;
+  height: 40px;
+  opacity: 1;
+  transition: 1.6s;
+  margin-right: 120px;
+  margin-top:50%;
+  margin-bottom:50%
+}
+#input{
+  border:5px solid maroon;
+}
