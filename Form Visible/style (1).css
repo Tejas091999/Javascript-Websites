@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+.heading{
+ background-color: #195276; 
+}
+.content{
+  background-color: #69b1c3;
+}
+.title{
+  text-align: center;
+}
+.button{
+  margin-left:50%;
+  margin-right:50%;
+}
+p{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.form{
+  display: none;
+}
+.form1{
+  display:flex;
+  justify-content: center;
+  animation: ease-in ;
+  background-color: pink;
+}
