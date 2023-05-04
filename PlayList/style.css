@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020264;
+}
+
+h2 {
+  color: #5093ce
+}
+
+.label {
+  color: #3282c8;
+}
+
+input {
+  border: 3px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  border: 3px solid #1a0404;
+}
+
+li {
+  color: #9a73d3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
