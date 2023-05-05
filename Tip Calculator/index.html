@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>Tip Calculator</h2>
+  <div>
+    <div>
+      <label for="bill">Bill Amount :</label><br>
+      <input type="number" id="bill" />
+    </div>
+    <div>
+      <label for="service">Rate our service :</label><br>
+      <select id="service">
+        <option value="0.3">30% Outstanding</option>
+        <option value="0.2">20% Good</option>
+        <option value="0.15">15% Good be better</option>
+        <option value="0.05">5% Not satisfied</option>
+      </select>
+    </div>
+    <div>
+      <label for="people">Number of people sharing the bill :</label><br>
+      <input type="number" id="people">
+    </div>
+        <div>
+          <button id="btn">Calculate</button>
+        </div>
+        <div>
+          <p id="para">$0.00</p>
+        </div>
+      </div>
+      <script src="script.js"></script>
+      <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
