@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #2a064b;
+  color: #9b66cc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 150px;
+  border-radius:10px;
+  margin-top: 5px;
+  background-color: #71538d;
+  font-size:15px;
+  cursor:pointer;
+}
