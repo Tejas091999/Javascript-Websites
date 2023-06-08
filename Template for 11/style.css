@@ -1,0 +1,42 @@
+body {
+  background-color: #115ad0;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 450px;
+  height: 250px;
+  overflow: hidden;
+}
+
+label {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+.center {
+margin-left: 550px;
+}
+
+.right {
+  margin-left:1000px;
+}
+.left{
+  margin-left: 25px;
+}
