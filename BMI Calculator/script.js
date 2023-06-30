@@ -9,7 +9,7 @@ function final(){
   if (final1 < 18.4){
     para1.innerHTML = "Underweight"}
   else if (18.4 < final1< 24.9){
-    para1.innerHTML = "Normal"}
+    para1.innerHTML = "Normal"}    
   else if (24.9 < final1 < 40){
     para1.innerHTML = "OverWeight"}
   else {
