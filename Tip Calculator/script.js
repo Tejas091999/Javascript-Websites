@@ -5,6 +5,6 @@ const people1 = document.getElementById("people")
 const para1 = document.getElementById("para")
 button1.addEventListener("click",payment)
  function payment(){
-   var totalTip = (billAmount.value *       service1.value)/people1.value
+   var totalTip = (billAmount.value *       service1.value)/people1.value     
   para1.innerHTML = "$" + totalTip + " each"
  }
